@@ -21,7 +21,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
 
-            android:layout_marginLeft="20pt"
+            android:layout_marginStart="20pt"
             android:layout_marginTop="20pt"
 
 
@@ -53,7 +53,7 @@
             android:layout_height="96dp"
 
             android:layout_marginTop="14pt"
-            android:layout_marginRight="20pt"
+            android:layout_marginEnd="20pt"
 
             android:background="@drawable/logo_tick"
             android:foregroundGravity="center"
@@ -68,8 +68,8 @@
             android:layout_height="0pt"
 
             android:layout_marginTop="33pt"
-            android:layout_marginLeft="20pt"
-            android:layout_marginRight="12pt"
+            android:layout_marginStart="20pt"
+            android:layout_marginEnd="12pt"
             android:layout_marginBottom="15pt"
 
             app:layout_constraintTop_toBottomOf="@id/l_lay_1"
@@ -114,8 +114,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
 
-                    android:layout_marginLeft="25dp"
-                    android:layout_marginRight="25dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginEnd="25dp"
 
                     android:background="@drawable/onboarding_edit_text_1"
 
@@ -128,9 +128,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
 
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="25dp"
+                    android:layout_marginEnd="25dp"
 
                     android:background="@drawable/onboarding_edit_text_1"
 
@@ -149,7 +149,7 @@
             android:layout_height="60dp"
 
             android:layout_marginStart="184dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
             android:layout_marginBottom="4dp"
 
             android:background="@drawable/onboarding_button_round"

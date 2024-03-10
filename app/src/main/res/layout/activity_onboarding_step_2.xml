@@ -66,7 +66,7 @@
             android:layout_height="0dp"
 
             android:layout_marginTop="25dp"
-            android:layout_marginLeft="41dp"
+            android:layout_marginStart="41dp"
 
             android:text="Effortless &amp; Elegant"
             android:textStyle="bold"
@@ -84,7 +84,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
 
-            android:layout_marginLeft="41dp"
+            android:layout_marginStart="41dp"
 
             android:text="Tap. Learn. Love it! Streamlining your SLIIT experience with ease."
             android:textStyle="bold"
@@ -102,8 +102,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
 
-            android:layout_marginLeft="41dp"
-            android:layout_marginRight="41dp"
+            android:layout_marginStart="41dp"
+            android:layout_marginEnd="41dp"
 
             android:text="Navigate your SLIIT schedule effortlessly with 'Effortless &amp; Elegant.' Elegant design, easy use, and efficient management - simplicity at its best."
             android:textSize="14dp"
