@@ -21,7 +21,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
 
-            android:layout_marginLeft="20pt"
+            android:layout_marginStart="20pt"
             android:layout_marginTop="20pt"
 
 
@@ -36,9 +36,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:text="Create\nAccount"
+                android:text="@string/onboarding_step_1_screen_title"
                 android:textColor="@color/white"
-                android:textSize="27dp"
+                android:textSize="27sp"
                 android:textStyle="bold"
 
                 >
@@ -53,13 +53,14 @@
             android:layout_height="96dp"
 
             android:layout_marginTop="14pt"
-            android:layout_marginRight="20pt"
+            android:layout_marginEnd="20pt"
 
             android:background="@drawable/logo_tick"
             android:foregroundGravity="center"
 
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent">
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription">
 
         </ImageView>
 
@@ -68,8 +69,8 @@
             android:layout_height="0pt"
 
             android:layout_marginTop="33pt"
-            android:layout_marginLeft="20pt"
-            android:layout_marginRight="12pt"
+            android:layout_marginStart="20pt"
+            android:layout_marginEnd="12pt"
             android:layout_marginBottom="15pt"
 
             app:layout_constraintTop_toBottomOf="@id/l_lay_1"
@@ -93,7 +94,8 @@
 
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
+                app:layout_constraintTop_toTopOf="parent"
+                android:importantForAccessibility="no">
 
             </ImageView>
 
@@ -117,9 +119,10 @@
 
                     android:background="@drawable/onboarding_edit_text_1"
 
-                    android:paddingLeft="13dp"
-                    android:text="Email Address"
-                    >
+                    android:paddingStart="13dp"
+                    android:text="@string/onboarding_step_1_placeholder_email"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor,RtlSymmetry,TextFields">
 
                 </EditText>
 
@@ -133,9 +136,10 @@
 
                     android:background="@drawable/onboarding_edit_text_1"
 
-                    android:paddingLeft="13dp"
-                    android:text="Your Name"
-                    >
+                    android:paddingStart="13dp"
+                    android:text="@string/onboarding_step_1_placeholder_name"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor,RtlSymmetry,TextFields">
 
                 </EditText>
 
@@ -149,9 +153,10 @@
 
                     android:background="@drawable/onboarding_edit_text_1"
 
-                    android:paddingLeft="13dp"
-                    android:text="Password"
-                    >
+                    android:paddingStart="13dp"
+                    android:text="@string/onboarding_step_1_placeholder_password"
+                    android:importantForAutofill="no"
+                    tools:ignore="LabelFor,RtlSymmetry,TextFields">
 
                 </EditText>
 
@@ -160,12 +165,12 @@
                     android:layout_height="wrap_content"
 
                     android:layout_marginTop="10dp"
-                    android:text="-> I Already have an account"
+                    android:text="@string/onboarding_step_1_already_have"
 
-                    android:paddingLeft="27dp"
+                    android:paddingStart="27dp"
 
                     android:fontFamily="@font/inter_font"
-                    >
+                    tools:ignore="RtlSymmetry">
 
                 </TextView>
 
@@ -180,7 +185,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
 
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:backgroundTint="@drawable/onboarding_button_round"
 

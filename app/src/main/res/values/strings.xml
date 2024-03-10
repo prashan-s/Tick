@@ -4,4 +4,9 @@
     <string name="onboarding_step_3_subtitle">Buzz in Time! Notifications that bring the classroom to you.</string>
     <string name="onboarding_step_3_title">Never Miss a Lecture</string>
     <string name="onboarding_step_3_button_title">Get Started</string>
+    <string name="onboarding_step_1_screen_title">Create\nAccount</string>
+    <string name="onboarding_step_1_placeholder_email">Email Address</string>
+    <string name="onboarding_step_1_placeholder_name">Your Name</string>
+    <string name="onboarding_step_1_placeholder_password">Password</string>
+    <string name="onboarding_step_1_already_have"><![CDATA[-> I Already have an account]]></string>
 </resources>
