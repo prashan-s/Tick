@@ -1,12 +1,23 @@
 <resources>
     <string name="app_name">tick</string>
-    <string name="onboarding_step_3_description">Never Miss a Lecture\' ensures punctuality with timely, tailored notifications synced to your SLIIT timetable. Always be prepared and on time.</string>
-    <string name="onboarding_step_3_subtitle">Buzz in Time! Notifications that bring the classroom to you.</string>
-    <string name="onboarding_step_3_title">Never Miss a Lecture</string>
-    <string name="onboarding_step_3_button_title">Get Started</string>
+
     <string name="onboarding_step_1_screen_title">Create\nAccount</string>
     <string name="onboarding_step_1_placeholder_email">Email Address</string>
     <string name="onboarding_step_1_placeholder_name">Your Name</string>
     <string name="onboarding_step_1_placeholder_password">Password</string>
     <string name="onboarding_step_1_already_have"><![CDATA[-> I Already have an account]]></string>
+
+    <string name="onboarding_step_3_description">Never Miss a Lecture\' ensures punctuality with timely, tailored notifications synced to your SLIIT timetable. Always be prepared and on time.</string>
+    <string name="onboarding_step_3_subtitle">Buzz in Time! Notifications that bring the classroom to you.</string>
+    <string name="onboarding_step_3_title">Never Miss a Lecture</string>
+    <string name="onboarding_step_3_button_title">Get Started</string>
+    <string name="onboarding_step_2_screen_title">Create\nAccount</string>
+    <string name="onboarding_step_2_label_special">Specialization</string>
+    <string name="onboarding_step_2_placeholder_special">Software Engineering</string>
+    <string name="onboarding_step_2_label_year">Year</string>
+    <string name="onboarding_step_2_placeholder_2024">2024</string>
+    <string name="onboarding_step_2_label_semester">Semester</string>
+    <string name="onboarding_step_2_placeholder_year">Year 02</string>
+    <string name="onboarding_step_2_label_group">Group</string>
+    <string name="onboarding_step_2_placeholder_we02">WE.02</string>
 </resources>

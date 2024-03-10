@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/App_Primary">
@@ -36,9 +35,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
-                android:text="@string/onboarding_step_2_screen_title"
+                android:text="Create\nAccount"
                 android:textColor="@color/white"
-                android:textSize="27sp"
+                android:textSize="27dp"
                 android:textStyle="bold"
 
                 >
@@ -59,8 +58,7 @@
             android:foregroundGravity="center"
 
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:ignore="ContentDescription">
+            app:layout_constraintTop_toTopOf="parent">
 
         </ImageView>
 
@@ -83,8 +81,7 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/l_lay_1"
-            app:layout_constraintVertical_bias="0.0"
-            tools:ignore="UnusedAttribute">
+            app:layout_constraintVertical_bias="0.0">
 
 
             <LinearLayout
@@ -105,9 +102,8 @@
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
 
-                    android:paddingStart="0dp"
-                    android:text="@string/onboarding_step_2_label_special"
-                    tools:ignore="RtlSymmetry">
+                    android:paddingLeft="0dp"
+                    android:text="Specialization">
 
                 </TextView>
 
@@ -120,10 +116,8 @@
 
                     android:background="@drawable/onboarding_edit_text_1"
 
-                    android:paddingStart="13dp"
-                    android:text="@string/onboarding_step_2_placeholder_special"
-                    android:autofillHints=""
-                    tools:ignore="LabelFor,RtlSymmetry,TextFields">
+                    android:paddingLeft="13dp"
+                    android:text="Software Engineering">
 
                 </EditText>
 
@@ -134,9 +128,8 @@
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
 
-                    android:paddingStart="0dp"
-                    android:text="@string/onboarding_step_2_label_year"
-                    tools:ignore="RtlSymmetry">
+                    android:paddingLeft="0dp"
+                    android:text="Year">
 
                 </TextView>
 
@@ -150,9 +143,8 @@
 
                     android:background="@drawable/onboarding_edit_text_1"
 
-                    android:paddingStart="13dp"
-                    android:text="@string/onboarding_step_2_placeholder_2024"
-                    tools:ignore="Autofill,LabelFor,RtlSymmetry,TextFields">
+                    android:paddingLeft="13dp"
+                    android:text="2024">
 
                 </EditText>
 
@@ -163,9 +155,8 @@
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
 
-                    android:paddingStart="0dp"
-                    android:text="@string/onboarding_step_2_label_semester"
-                    tools:ignore="RtlSymmetry">
+                    android:paddingLeft="0dp"
+                    android:text="Semester">
 
                 </TextView>
 
@@ -179,9 +170,8 @@
 
                     android:background="@drawable/onboarding_edit_text_1"
 
-                    android:paddingStart="13dp"
-                    android:text="@string/onboarding_step_2_placeholder_year"
-                    tools:ignore="Autofill,LabelFor,RtlSymmetry,TextFields">
+                    android:paddingLeft="13dp"
+                    android:text="Year 02">
                 </EditText>
 
                 <TextView
@@ -191,9 +181,8 @@
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
 
-                    android:paddingStart="0dp"
-                    android:text="@string/onboarding_step_2_label_group"
-                    tools:ignore="RtlSymmetry">
+                    android:paddingLeft="0dp"
+                    android:text="Group">
 
                 </TextView>
 
@@ -207,9 +196,8 @@
 
                     android:background="@drawable/onboarding_edit_text_1"
 
-                    android:paddingStart="13dp"
-                    android:text="@string/onboarding_step_2_placeholder_we02"
-                    tools:ignore="Autofill,LabelFor,RtlSymmetry,TextFields">
+                    android:paddingLeft="13dp"
+                    android:text="WE.02">
 
 
                 </EditText>
@@ -232,8 +220,7 @@
 
             app:layout_constraintLeft_toLeftOf="@id/main_card"
             app:layout_constraintRight_toRightOf="@id/main_card"
-            app:layout_constraintTop_toTopOf="@id/main_card"
-            tools:ignore="ContentDescription">
+            app:layout_constraintTop_toTopOf="@id/main_card">
 
         </ImageView>
         <Button
@@ -246,7 +233,7 @@
 
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            android:text="">
+            android:text="H">
 
         </Button>
     </androidx.constraintlayout.widget.ConstraintLayout>
