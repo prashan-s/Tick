@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/App_Primary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lay_c1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/l_lay_1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="20pt"
+            android:layout_marginTop="20pt"
+
+
+            android:orientation="vertical"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/logo"
+
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Create\nAccount"
+                android:textColor="@color/white"
+                android:textSize="27dp"
+                android:textStyle="bold"
+
+                >
+
+            </TextView>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="99dp"
+            android:layout_height="96dp"
+
+            android:layout_marginTop="14pt"
+            android:layout_marginRight="20pt"
+
+            android:background="@drawable/logo_tick"
+            android:foregroundGravity="center"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/main_card"
+            android:layout_width="0pt"
+            android:layout_height="0pt"
+
+            android:layout_marginLeft="20pt"
+            android:layout_marginTop="33pt"
+            android:layout_marginRight="12pt"
+            android:layout_marginBottom="15pt"
+
+            android:background="@drawable/onboarding_card_1"
+            android:clipChildren="false"
+            android:clipToOutline="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/l_lay_1"
+            app:layout_constraintVertical_bias="0.0">
+
+
+            <LinearLayout
+                android:layout_width="352dp"
+                android:layout_height="match_parent"
+
+                android:layout_marginTop="150dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+
+                    android:paddingLeft="0dp"
+                    android:text="Specialization">
+
+                </TextView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+
+                    android:background="@drawable/onboarding_edit_text_1"
+
+                    android:paddingLeft="13dp"
+                    android:text="Software Engineering">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+
+                    android:paddingLeft="0dp"
+                    android:text="Year">
+
+                </TextView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+
+                    android:background="@drawable/onboarding_edit_text_1"
+
+                    android:paddingLeft="13dp"
+                    android:text="2024">
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+
+                    android:paddingLeft="0dp"
+                    android:text="Semester">
+
+                </TextView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+
+                    android:background="@drawable/onboarding_edit_text_1"
+
+                    android:paddingLeft="13dp"
+                    android:text="Year 02">
+                </EditText>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="25dp"
+
+                    android:paddingLeft="0dp"
+                    android:text="Group">
+
+                </TextView>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="25dp"
+
+                    android:background="@drawable/onboarding_edit_text_1"
+
+                    android:paddingLeft="13dp"
+                    android:text="WE.02">
+
+
+                </EditText>
+
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/onboarding_image"
+            android:layout_width="261dp"
+            android:layout_height="261dp"
+
+            android:layout_marginTop="-86dp"
+
+            android:background="@drawable/signup_image"
+            android:foregroundGravity="top"
+
+            app:layout_constraintLeft_toLeftOf="@id/main_card"
+            app:layout_constraintRight_toRightOf="@id/main_card"
+            app:layout_constraintTop_toTopOf="@id/main_card">
+
+        </ImageView>
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@drawable/onboarding_button_round"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="H">
+
+        </Button>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

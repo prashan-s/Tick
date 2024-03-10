@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+
+
+    <color name="App_Primary">#0079FE</color>
+    <color name="App_Secondary">#FFFFFF</color>
+    <color name="App_Ternary">#023047</color>
+
+    <color name="App_Button">#005B96</color>
+    <color name="App_Round_Button">#023047</color>
+    <color name="App_Edit_Text_Background">#1C0079FE</color>
+
+    <color name="App_Dashboard_Dropdown">#283450</color>
+
+</resources>
