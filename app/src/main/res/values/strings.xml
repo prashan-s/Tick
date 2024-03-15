@@ -20,4 +20,5 @@
     <string name="onboarding_step_2_placeholder_year">Year 02</string>
     <string name="onboarding_step_2_label_group">Group</string>
     <string name="onboarding_step_2_placeholder_we02">WE.02</string>
+    <string name="password">Password</string>
 </resources>

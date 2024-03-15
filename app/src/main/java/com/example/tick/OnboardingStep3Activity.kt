@@ -17,7 +17,7 @@ class OnboardingStep3Activity : AppCompatActivity() {
 
         val button: Button = findViewById<Button>(R.id.btn_next)
         button.setOnClickListener {
-            val intent = Intent(this, SignInActivity::class.java)
+            val intent = Intent(this, SignUpStep1Activity::class.java)
             startActivity(intent)
         }
     }

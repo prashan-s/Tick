@@ -132,8 +132,8 @@
 
                     android:background="@drawable/onboarding_edit_text_1"
 
-                    android:paddingStart="13dp"
-                    android:text="Password">
+                    android:paddingStart="@dimen/_13dp"
+                    android:text="@string/password">
 
                 </EditText>
 
