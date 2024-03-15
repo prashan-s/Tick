@@ -6,6 +6,7 @@
 
 
     <color name="App_Primary">#0079FE</color>
+    <color name="App_One_Letter">#488AD1</color>
     <color name="App_Secondary">#FFFFFF</color>
     <color name="App_Ternary">#023047</color>
 
@@ -14,5 +15,7 @@
     <color name="App_Edit_Text_Background">#1C0079FE</color>
 
     <color name="App_Dashboard_Dropdown">#283450</color>
+    <color name="App_Dashboard_Card">#2C56B2</color>
+
 
 </resources>
