@@ -44,6 +44,15 @@
             android:name=".ProfileActivity"
             android:exported="true" />
         <activity
+            android:name=".LectureInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TutorialInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PracticalInfoActivity"
+            android:exported="true" />
+        <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
             <intent-filter>
