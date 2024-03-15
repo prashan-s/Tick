@@ -25,4 +25,8 @@
     <string name="dash_detail_endtime">8.30 A.M</string>
     <string name="dash_detail_title">Mobile Application Devlopment</string>
     <string name="dash_detail_introduction">Introduction</string>
+    <string name="dash_detail_mad">MAD</string>
+    <string name="content_detail_lectures">Lectures</string>
+    <string name="content_detail_tutorials">Tutorials</string>
+    <string name="content_detail_practicals">Practicals</string>
 </resources>
