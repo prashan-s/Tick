@@ -64,6 +64,7 @@
         </ImageView>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/loginView"
             android:layout_width="0pt"
             android:layout_height="0pt"
 
@@ -98,9 +99,9 @@
             </ImageView>
 
             <LinearLayout
+                android:id="@+id/linear"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-
                 android:layout_marginTop="10dp"
                 android:orientation="vertical"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -113,12 +114,9 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-
                     android:layout_marginStart="25dp"
                     android:layout_marginEnd="25dp"
-
                     android:background="@drawable/onboarding_edit_text_1"
-
                     android:paddingStart="13dp"
                     android:text="Email Address">
 
@@ -144,21 +142,23 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <Button
+        <ImageButton
+            android:id="@+id/btn_next"
             android:layout_width="60dp"
             android:layout_height="60dp"
-
-            android:layout_marginStart="184dp"
-            android:layout_marginEnd="10dp"
+            android:background="@drawable/next_btn"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
             android:layout_marginBottom="4dp"
-
-            android:background="@drawable/onboarding_button_round"
-            android:text=""
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintStart_toStartOf="parent">
+            app:layout_constraintStart_toStartOf="@id/loginView"
+            app:layout_constraintEnd_toEndOf="@id/loginView"
+            >
+        </ImageButton>
 
-        </Button>
+
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
